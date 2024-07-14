@@ -194,6 +194,20 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.quality-icons-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 8px;
+}
+.quality-icons-item {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  padding: 24px 100px;
+}
+
 .page-priorities {
   font-weight: 700;
   font-size: 36px;
@@ -266,6 +280,33 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+}
+.our-team-social {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.our-team-social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.our-team-social-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.our-team-social-link:hover {
+  background-color: #31d0aa;
+}
+.icon-link {
+  fill: #ffffff;
 }
 /* Section 4 */
 .section-portfolio {
