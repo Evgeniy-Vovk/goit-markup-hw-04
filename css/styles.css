@@ -435,9 +435,15 @@ img {
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.our-team-social-wrap {
+.our-team-social-foot {
   display: flex;
   gap: 16px;
+}
+.another:hover {
+  background-color: #31d0aa;
+}
+.another:focus {
+  background-color: #31d0aa;
 }
 .footer-text {
   font-weight: 400;
